@@ -114,68 +114,67 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">Lindongan</th>\
-                        <td>' + (feature.properties['Lindongan'] !== null ? autolinker.link(feature.properties['Lindongan'].toLocaleString()) : '') + '</td>\
+                        <th>Lindongan ' + (feature.properties['Lindongan'] !== null ? autolinker.link(feature.properties['Lindongan'].toLocaleString()) : '') + '</th>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Jumlah Penduduk</th>\
+                        <td scope="row">Jumlah Penduduk</td>\
                         <td>' + (feature.properties['Jmlh Pnddk'] !== null ? autolinker.link(feature.properties['Jmlh Pnddk'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Jumlah Penduduk Berdasarkan Jenis Kelamin</strong><br />' + (feature.properties['Pddk PerJK'] !== null ? autolinker.link(feature.properties['Pddk PerJK'].toLocaleString()) : '') + '</td>\
+                        <th colspan="2"><strong>Jumlah Penduduk Berdasarkan Jenis Kelamin</strong><br />' + (feature.properties['Pddk PerJK'] !== null ? autolinker.link(feature.properties['Pddk PerJK'].toLocaleString()) : '') + '</th>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Laki - Laki</th>\
+                        <td scope="row">Laki - Laki</td>\
                         <td>' + (feature.properties['Lk'] !== null ? autolinker.link(feature.properties['Lk'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Perempuan</th>\
+                        <td scope="row">Perempuan</td>\
                         <td>' + (feature.properties['Pr'] !== null ? autolinker.link(feature.properties['Pr'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Jumlah Penduduk Berdasarkan Kelompok Umur</strong><br />' + (feature.properties['Pnddk Umur'] !== null ? autolinker.link(feature.properties['Pnddk Umur'].toLocaleString()) : '') + '</td>\
+                        <th colspan="2"><strong>Jumlah Penduduk Berdasarkan Kelompok Umur</strong><br />' + (feature.properties['Pnddk Umur'] !== null ? autolinker.link(feature.properties['Pnddk Umur'].toLocaleString()) : '') + '</th>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Usia Belum Produktif (0 - 14 Tahun)</th>\
+                        <td scope="row">Usia Belum Produktif (0 - 14 Tahun)</td>\
                         <td>' + (feature.properties['0-14 thn'] !== null ? autolinker.link(feature.properties['0-14 thn'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Usia Produktif (15 - 64 Tahun)</th>\
+                        <td scope="row">Usia Produktif (15 - 64 Tahun)</td>\
                         <td>' + (feature.properties['15-64 thn'] !== null ? autolinker.link(feature.properties['15-64 thn'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Usia Tidak Produktif (65 Tahun Keatas)</th>\
+                        <td scope="row">Usia Tidak Produktif (65 Tahun Keatas)</td>\
                         <td>' + (feature.properties['65++'] !== null ? autolinker.link(feature.properties['65++'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Jumlah Penduduk Berdasarkan Pendidikan Terakhir</strong><br />' + (feature.properties['Pendidikan'] !== null ? autolinker.link(feature.properties['Pendidikan'].toLocaleString()) : '') + '</td>\
+                        <th colspan="2"><strong>Jumlah Penduduk Berdasarkan Pendidikan Terakhir</strong><br />' + (feature.properties['Pendidikan'] !== null ? autolinker.link(feature.properties['Pendidikan'].toLocaleString()) : '') + '</th>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Tidak / Belum Sekolah</th>\
+                        <td scope="row">Tidak / Belum Sekolah</td>\
                         <td>' + (feature.properties['01'] !== null ? autolinker.link(feature.properties['01'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Belum Tamat SD</th>\
+                        <td scope="row">Belum Tamat SD</td>\
                         <td>' + (feature.properties['02'] !== null ? autolinker.link(feature.properties['02'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Tamat SD</th>\
+                        <td scope="row">Tamat SD</td>\
                         <td>' + (feature.properties['03'] !== null ? autolinker.link(feature.properties['03'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Tamat SLTP</th>\
+                        <td scope="row">Tamat SLTP</td>\
                         <td>' + (feature.properties['04'] !== null ? autolinker.link(feature.properties['04'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Tamat SLTA</th>\
+                        <td scope="row">Tamat SLTA</td>\
                         <td>' + (feature.properties['05'] !== null ? autolinker.link(feature.properties['05'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Diploma 2 dan Diploma 3</th>\
+                        <td scope="row">Diploma 2 dan Diploma 3</td>\
                         <td>' + (feature.properties['06'] !== null ? autolinker.link(feature.properties['06'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">S1 dan S2</th>\
+                        <td scope="row">S1 dan S2</td>\
                         <td>' + (feature.properties['08'] !== null ? autolinker.link(feature.properties['08'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
